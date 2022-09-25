@@ -1,0 +1,3151 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Bold.Licensing/3.3.28": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "frameworkAssemblies": [
+          "Bold.Licensing"
+        ],
+        "compile": {
+          "lib/net46/Bold.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Bold.Licensing.dll": {}
+        }
+      },
+      "BoldReports.WPF/3.3.28": {
+        "type": "package",
+        "dependencies": {
+          "Bold.Licensing": "3.3.28",
+          "Syncfusion.Chart.WPF.Classic": "19.2.0.44",
+          "Syncfusion.DocIO.WPF": "19.2.0.44",
+          "Syncfusion.Gauge.WPF": "19.2.0.44",
+          "Syncfusion.Grid.WPF": "19.2.0.44",
+          "Syncfusion.GridCommon.Wpf": "19.2.0.44",
+          "Syncfusion.Linq.Base": "19.2.0.44",
+          "Syncfusion.PDF.WPF": "19.2.0.44",
+          "Syncfusion.Presentation.Wpf": "19.2.0.44",
+          "Syncfusion.SfMaps.WPF": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44",
+          "Syncfusion.Shared.WPF.Classic": "19.2.0.44",
+          "Syncfusion.XlsIO.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/BoldReports.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/BoldReports.WPF.dll": {}
+        }
+      },
+      "Microsoft.ReportingServices.ReportViewerControl.WebForms/150.1484.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.SqlServer.Types": "14.0.0"
+        },
+        "compile": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebDesign.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebDesign.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebForms.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHT"
+          }
+        }
+      },
+      "Microsoft.ReportingServices.ReportViewerControl.Winforms/150.1484.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.SqlServer.Types": "14.0.0"
+        },
+        "compile": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WinForms.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHT"
+          }
+        }
+      },
+      "Microsoft.SqlServer.Types/14.0.1016.290": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.SqlServer.Types.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.SqlServer.Types.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Syncfusion.Chart.WPF.Classic/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {}
+        }
+      },
+      "Syncfusion.DocIO.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.OfficeChart.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {}
+        }
+      },
+      "Syncfusion.Gauge.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Gauge.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Gauge.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Grid.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Linq.Base": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {}
+        }
+      },
+      "Syncfusion.GridCommon.Wpf/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Linq.Base/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {}
+        }
+      },
+      "Syncfusion.OfficeChart.Base/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {}
+        }
+      },
+      "Syncfusion.Presentation.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.OfficeChart.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Presentation.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Presentation.Base.dll": {}
+        }
+      },
+      "Syncfusion.SfMaps.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.SfMaps.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.SfMaps.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF.Classic/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {}
+        }
+      },
+      "Syncfusion.XlsIO.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "Bold.Licensing/3.3.28": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "frameworkAssemblies": [
+          "Bold.Licensing"
+        ],
+        "compile": {
+          "lib/net46/Bold.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Bold.Licensing.dll": {}
+        }
+      },
+      "BoldReports.WPF/3.3.28": {
+        "type": "package",
+        "dependencies": {
+          "Bold.Licensing": "3.3.28",
+          "Syncfusion.Chart.WPF.Classic": "19.2.0.44",
+          "Syncfusion.DocIO.WPF": "19.2.0.44",
+          "Syncfusion.Gauge.WPF": "19.2.0.44",
+          "Syncfusion.Grid.WPF": "19.2.0.44",
+          "Syncfusion.GridCommon.Wpf": "19.2.0.44",
+          "Syncfusion.Linq.Base": "19.2.0.44",
+          "Syncfusion.PDF.WPF": "19.2.0.44",
+          "Syncfusion.Presentation.Wpf": "19.2.0.44",
+          "Syncfusion.SfMaps.WPF": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44",
+          "Syncfusion.Shared.WPF.Classic": "19.2.0.44",
+          "Syncfusion.XlsIO.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/BoldReports.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/BoldReports.WPF.dll": {}
+        }
+      },
+      "Microsoft.ReportingServices.ReportViewerControl.WebForms/150.1484.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.SqlServer.Types": "14.0.0"
+        },
+        "compile": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebDesign.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebDesign.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebForms.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHT"
+          }
+        }
+      },
+      "Microsoft.ReportingServices.ReportViewerControl.Winforms/150.1484.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.SqlServer.Types": "14.0.0"
+        },
+        "compile": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WinForms.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHT"
+          }
+        }
+      },
+      "Microsoft.SqlServer.Types/14.0.1016.290": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.SqlServer.Types.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.SqlServer.Types.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Syncfusion.Chart.WPF.Classic/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {}
+        }
+      },
+      "Syncfusion.DocIO.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.OfficeChart.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {}
+        }
+      },
+      "Syncfusion.Gauge.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Gauge.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Gauge.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Grid.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Linq.Base": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {}
+        }
+      },
+      "Syncfusion.GridCommon.Wpf/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Linq.Base/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {}
+        }
+      },
+      "Syncfusion.OfficeChart.Base/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {}
+        }
+      },
+      "Syncfusion.Presentation.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.OfficeChart.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Presentation.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Presentation.Base.dll": {}
+        }
+      },
+      "Syncfusion.SfMaps.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.SfMaps.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.SfMaps.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF.Classic/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {}
+        }
+      },
+      "Syncfusion.XlsIO.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "Bold.Licensing/3.3.28": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "frameworkAssemblies": [
+          "Bold.Licensing"
+        ],
+        "compile": {
+          "lib/net46/Bold.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Bold.Licensing.dll": {}
+        }
+      },
+      "BoldReports.WPF/3.3.28": {
+        "type": "package",
+        "dependencies": {
+          "Bold.Licensing": "3.3.28",
+          "Syncfusion.Chart.WPF.Classic": "19.2.0.44",
+          "Syncfusion.DocIO.WPF": "19.2.0.44",
+          "Syncfusion.Gauge.WPF": "19.2.0.44",
+          "Syncfusion.Grid.WPF": "19.2.0.44",
+          "Syncfusion.GridCommon.Wpf": "19.2.0.44",
+          "Syncfusion.Linq.Base": "19.2.0.44",
+          "Syncfusion.PDF.WPF": "19.2.0.44",
+          "Syncfusion.Presentation.Wpf": "19.2.0.44",
+          "Syncfusion.SfMaps.WPF": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44",
+          "Syncfusion.Shared.WPF.Classic": "19.2.0.44",
+          "Syncfusion.XlsIO.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/BoldReports.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/BoldReports.WPF.dll": {}
+        }
+      },
+      "Microsoft.ReportingServices.ReportViewerControl.WebForms/150.1484.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.SqlServer.Types": "14.0.0"
+        },
+        "compile": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebDesign.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebDesign.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebForms.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHT"
+          }
+        }
+      },
+      "Microsoft.ReportingServices.ReportViewerControl.Winforms/150.1484.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.SqlServer.Types": "14.0.0"
+        },
+        "compile": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WinForms.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHT"
+          }
+        }
+      },
+      "Microsoft.SqlServer.Types/14.0.1016.290": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.SqlServer.Types.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.SqlServer.Types.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Syncfusion.Chart.WPF.Classic/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {}
+        }
+      },
+      "Syncfusion.DocIO.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.OfficeChart.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {}
+        }
+      },
+      "Syncfusion.Gauge.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Gauge.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Gauge.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Grid.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Linq.Base": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {}
+        }
+      },
+      "Syncfusion.GridCommon.Wpf/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Linq.Base/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {}
+        }
+      },
+      "Syncfusion.OfficeChart.Base/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {}
+        }
+      },
+      "Syncfusion.Presentation.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.OfficeChart.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Presentation.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Presentation.Base.dll": {}
+        }
+      },
+      "Syncfusion.SfMaps.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.SfMaps.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.SfMaps.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF.Classic/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {}
+        }
+      },
+      "Syncfusion.XlsIO.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "Bold.Licensing/3.3.28": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "frameworkAssemblies": [
+          "Bold.Licensing"
+        ],
+        "compile": {
+          "lib/net46/Bold.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Bold.Licensing.dll": {}
+        }
+      },
+      "BoldReports.WPF/3.3.28": {
+        "type": "package",
+        "dependencies": {
+          "Bold.Licensing": "3.3.28",
+          "Syncfusion.Chart.WPF.Classic": "19.2.0.44",
+          "Syncfusion.DocIO.WPF": "19.2.0.44",
+          "Syncfusion.Gauge.WPF": "19.2.0.44",
+          "Syncfusion.Grid.WPF": "19.2.0.44",
+          "Syncfusion.GridCommon.Wpf": "19.2.0.44",
+          "Syncfusion.Linq.Base": "19.2.0.44",
+          "Syncfusion.PDF.WPF": "19.2.0.44",
+          "Syncfusion.Presentation.Wpf": "19.2.0.44",
+          "Syncfusion.SfMaps.WPF": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44",
+          "Syncfusion.Shared.WPF.Classic": "19.2.0.44",
+          "Syncfusion.XlsIO.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/BoldReports.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/BoldReports.WPF.dll": {}
+        }
+      },
+      "Microsoft.ReportingServices.ReportViewerControl.WebForms/150.1484.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.SqlServer.Types": "14.0.0"
+        },
+        "compile": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebDesign.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebDesign.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WebForms.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WebDesign.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WebForms.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHT"
+          }
+        }
+      },
+      "Microsoft.ReportingServices.ReportViewerControl.Winforms/150.1484.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.SqlServer.Types": "14.0.0"
+        },
+        "compile": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WinForms.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.ReportViewer.Common.dll": {},
+          "lib/net40/Microsoft.ReportViewer.DataVisualization.dll": {},
+          "lib/net40/Microsoft.ReportViewer.Design.dll": {},
+          "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll": {},
+          "lib/net40/Microsoft.ReportViewer.WinForms.dll": {}
+        },
+        "resource": {
+          "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHS"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll": {
+            "locale": "zh-CHT"
+          },
+          "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll": {
+            "locale": "zh-CHT"
+          }
+        }
+      },
+      "Microsoft.SqlServer.Types/14.0.1016.290": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.SqlServer.Types.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.SqlServer.Types.dll": {}
+        }
+      },
+      "Newtonsoft.Json/10.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Syncfusion.Chart.WPF.Classic/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Chart.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Compression.Base/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Compression.Base.dll": {}
+        }
+      },
+      "Syncfusion.DocIO.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.OfficeChart.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.DocIO.Base.dll": {}
+        }
+      },
+      "Syncfusion.Gauge.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Gauge.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Gauge.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Grid.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.GridCommon.Wpf": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Linq.Base": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Grid.WPF.dll": {}
+        }
+      },
+      "Syncfusion.GridCommon.Wpf/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.GridCommon.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Linq.Base/19.2.0.44": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Linq.Base.dll": {}
+        }
+      },
+      "Syncfusion.OfficeChart.Base/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.OfficeChart.Base.dll": {}
+        }
+      },
+      "Syncfusion.Pdf.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Pdf.Base.dll": {}
+        }
+      },
+      "Syncfusion.Presentation.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.OfficeChart.Base": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Presentation.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Presentation.Base.dll": {}
+        }
+      },
+      "Syncfusion.SfMaps.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44",
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.SfMaps.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.SfMaps.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.dll": {}
+        }
+      },
+      "Syncfusion.Shared.WPF.Classic/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Shared.WPF": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.Shared.WPF.Classic.dll": {}
+        }
+      },
+      "Syncfusion.XlsIO.Wpf/19.2.0.44": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Compression.Base": "19.2.0.44",
+          "Syncfusion.Licensing": "19.2.0.44"
+        },
+        "compile": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Syncfusion.XlsIO.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bold.Licensing/3.3.28": {
+      "sha512": "nnxNAR/YYwuqNfhJ7vpxikOs2C2xZn8qlV3UsB2Nq4huONYmwbaLig3L9s4RhP+vmnPTPdQw3IjzKKk5oQjaOw==",
+      "type": "package",
+      "path": "bold.licensing/3.3.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bold.licensing.3.3.28.nupkg.sha512",
+        "bold.licensing.nuspec",
+        "lib/MonoAndroid10/Bold.Licensing.dll",
+        "lib/Xamarin.Mac/Bold.Licensing.dll",
+        "lib/Xamarin.iOS10/Bold.Licensing.dll",
+        "lib/net40/Bold.Licensing.dll",
+        "lib/net45/Bold.Licensing.dll",
+        "lib/net451/Bold.Licensing.dll",
+        "lib/net46/Bold.Licensing.dll",
+        "lib/netcoreapp3.0/Bold.Licensing.dll",
+        "lib/netstandard1.0/Bold.Licensing.dll",
+        "lib/netstandard1.2/Bold.Licensing.dll",
+        "lib/netstandard1.4/Bold.Licensing.dll",
+        "lib/netstandard2.0/Bold.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Bold.Licensing.dll",
+        "lib/uap10.0/Bold.Licensing.dll"
+      ]
+    },
+    "BoldReports.WPF/3.3.28": {
+      "sha512": "IcXDRMNvdnU9aw5Zm1xkxe+lXfmPOQXJiv/74gA3uZPSEHZ2dZ/+CSpVPu0ToyW8myxPhVDLTN5NorrkEWsrSg==",
+      "type": "package",
+      "path": "boldreports.wpf/3.3.28",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "boldreports.wpf.3.3.28.nupkg.sha512",
+        "boldreports.wpf.nuspec",
+        "lib/net40/BoldReports.WPF.dll",
+        "lib/net40/BoldReports.WPF.xml",
+        "lib/net45/BoldReports.WPF.dll",
+        "lib/net45/BoldReports.WPF.xml",
+        "lib/net451/BoldReports.WPF.dll",
+        "lib/net451/BoldReports.WPF.xml",
+        "lib/net46/BoldReports.WPF.dll",
+        "lib/net46/BoldReports.WPF.xml",
+        "lib/netcoreapp3.1/BoldReports.WPF.dll",
+        "lib/netcoreapp3.1/BoldReports.WPF.xml",
+        "lib/netcoreapp5.0/BoldReports.WPF.dll",
+        "lib/netcoreapp5.0/BoldReports.WPF.xml"
+      ]
+    },
+    "Microsoft.ReportingServices.ReportViewerControl.WebForms/150.1484.0": {
+      "sha512": "/o4leHYDd5Swhya7lCDj4p5eoS5znG3tNgEGwWNySZMgdhCNSL1gXDAy6Qp+utYk/A8LUDhGI+TlD6ex+wgA4Q==",
+      "type": "package",
+      "path": "microsoft.reportingservices.reportviewercontrol.webforms/150.1484.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/web.config.install.xdt",
+        "lib/net40/Microsoft.ReportViewer.Common.dll",
+        "lib/net40/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/Microsoft.ReportViewer.DataVisualization.dll",
+        "lib/net40/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/Microsoft.ReportViewer.Design.dll",
+        "lib/net40/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll",
+        "lib/net40/Microsoft.ReportViewer.WebDesign.dll",
+        "lib/net40/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/Microsoft.ReportViewer.WebForms.dll",
+        "lib/net40/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/Microsoft.ReportViewer.WinForms.dll",
+        "lib/net40/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.WebDesign.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.WebForms.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll",
+        "license/License_ReportViewer.rtf",
+        "license/ThirdPartyNotices_ReportViewer.txt",
+        "microsoft.reportingservices.reportviewercontrol.webforms.150.1484.0.nupkg.sha512",
+        "microsoft.reportingservices.reportviewercontrol.webforms.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Microsoft.ReportingServices.ReportViewerControl.Winforms/150.1484.0": {
+      "sha512": "n+2dsSL2uTJRW09O8n5JaqiL1XCUzqyWgrbuYFHsESw6hxL7GIi0q2l3RQ8UsikeabgtvIhTyO1f28mwzk5BkQ==",
+      "type": "package",
+      "path": "microsoft.reportingservices.reportviewercontrol.winforms/150.1484.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.ReportViewer.Common.dll",
+        "lib/net40/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/Microsoft.ReportViewer.DataVisualization.dll",
+        "lib/net40/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/Microsoft.ReportViewer.Design.dll",
+        "lib/net40/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/Microsoft.ReportViewer.ProcessingObjectModel.dll",
+        "lib/net40/Microsoft.ReportViewer.WinForms.dll",
+        "lib/net40/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/de/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/es/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/fr/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/it/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/ja/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/ko/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/pt/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/ru/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/zh-CHS/Microsoft.ReportViewer.WinForms.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.Common.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.DataVisualization.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.Design.resources.dll",
+        "lib/net40/zh-CHT/Microsoft.ReportViewer.WinForms.resources.dll",
+        "license/License_ReportViewer.rtf",
+        "license/ThirdPartyNotices_ReportViewer.txt",
+        "microsoft.reportingservices.reportviewercontrol.winforms.150.1484.0.nupkg.sha512",
+        "microsoft.reportingservices.reportviewercontrol.winforms.nuspec"
+      ]
+    },
+    "Microsoft.SqlServer.Types/14.0.1016.290": {
+      "sha512": "isHCxuC16Tsgp7YfuagLRHEoFfJs0ibc0xBlSuU0yqUB9BeKRVxTU4CbsWfzsaW67I7LG5XLW4UCZFbVktmEuA==",
+      "type": "package",
+      "path": "microsoft.sqlserver.types/14.0.1016.290",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/SqlServerTypes/Loader.cs",
+        "content/SqlServerTypes/readme.htm",
+        "lib/net40/Microsoft.SqlServer.Types.dll",
+        "license/license_SysClrTypes.rtf",
+        "microsoft.sqlserver.types.14.0.1016.290.nupkg.sha512",
+        "microsoft.sqlserver.types.nuspec",
+        "nativeBinaries/x64/SqlServerSpatial140.dll",
+        "nativeBinaries/x64/msvcr120.dll",
+        "nativeBinaries/x86/SqlServerSpatial140.dll",
+        "nativeBinaries/x86/msvcr120.dll",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Newtonsoft.Json/10.0.2": {
+      "sha512": "iwElSU2IXmwGvytJsezyDML2ZWDkG2JzTYzlU/BNlmzMdlmRvbnwITsGGY74gwVEpDli1UdOLkMT7/3jxWvXzA==",
+      "type": "package",
+      "path": "newtonsoft.json/10.0.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wpa81+wp8/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Newtonsoft.Json.xml",
+        "newtonsoft.json.10.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "Syncfusion.Chart.WPF.Classic/19.2.0.44": {
+      "sha512": "s/tDo6hx8ZjesIBdh2S+knhQ4NYvuQJ2/4uv3p/w5VqyGVr6n+O4evRheFx2p7x1l3MlWHp50Mm7T0V1X6WXSQ==",
+      "type": "package",
+      "path": "syncfusion.chart.wpf.classic/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Chart.WPF.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Syncfusion.Chart.WPF.dll",
+        "lib/net35/Syncfusion.Chart.WPF.xml",
+        "lib/net40/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Chart.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Syncfusion.Chart.WPF.dll",
+        "lib/net40/Syncfusion.Chart.WPF.xml",
+        "lib/net45/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Chart.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Syncfusion.Chart.WPF.dll",
+        "lib/net45/Syncfusion.Chart.WPF.xml",
+        "lib/net451/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Chart.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Syncfusion.Chart.WPF.dll",
+        "lib/net451/Syncfusion.Chart.WPF.xml",
+        "lib/net46/Design/Syncfusion.Chart.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Chart.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Chart.Wpf.dll.Design.dll",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Syncfusion.Chart.WPF.dll",
+        "lib/net46/Syncfusion.Chart.WPF.xml",
+        "syncfusion.chart.wpf.classic.19.2.0.44.nupkg.sha512",
+        "syncfusion.chart.wpf.classic.nuspec"
+      ]
+    },
+    "Syncfusion.Compression.Base/19.2.0.44": {
+      "sha512": "V/sklQviCUXkiyJqtXZ4errVwscZt9F53hYWTha+Kc7PMkv8WwYHd5SRlnBeefQ1qHiQhp7PWIEsVdxm+/tWsQ==",
+      "type": "package",
+      "path": "syncfusion.compression.base/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Syncfusion.Compression.Base.dll",
+        "lib/net20/Syncfusion.Compression.Base.xml",
+        "lib/net35/Syncfusion.Compression.Base.dll",
+        "lib/net35/Syncfusion.Compression.Base.xml",
+        "lib/net40/Syncfusion.Compression.Base.dll",
+        "lib/net40/Syncfusion.Compression.Base.xml",
+        "lib/net45/Syncfusion.Compression.Base.dll",
+        "lib/net45/Syncfusion.Compression.Base.xml",
+        "lib/net451/Syncfusion.Compression.Base.dll",
+        "lib/net451/Syncfusion.Compression.Base.xml",
+        "lib/net46/Syncfusion.Compression.Base.dll",
+        "lib/net46/Syncfusion.Compression.Base.xml",
+        "lib/net5.0/Syncfusion.Compression.Base.dll",
+        "lib/net5.0/Syncfusion.Compression.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Compression.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Compression.Base.xml",
+        "syncfusion.compression.base.19.2.0.44.nupkg.sha512",
+        "syncfusion.compression.base.nuspec"
+      ]
+    },
+    "Syncfusion.DocIO.Wpf/19.2.0.44": {
+      "sha512": "Ck4i7+jPr0Zt5PGozGdKeZqf+9mtmuWhtScPd830qxLSnqhIW4bmKXwEn4Q5z5ju1StDJXAMxnM7ouZkgddeTg==",
+      "type": "package",
+      "path": "syncfusion.docio.wpf/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.DocIO.Base.dll",
+        "lib/net35/Syncfusion.DocIO.Base.xml",
+        "lib/net40/Syncfusion.DocIO.Base.dll",
+        "lib/net40/Syncfusion.DocIO.Base.xml",
+        "lib/net45/Syncfusion.DocIO.Base.dll",
+        "lib/net45/Syncfusion.DocIO.Base.xml",
+        "lib/net451/Syncfusion.DocIO.Base.dll",
+        "lib/net451/Syncfusion.DocIO.Base.xml",
+        "lib/net46/Syncfusion.DocIO.Base.dll",
+        "lib/net46/Syncfusion.DocIO.Base.xml",
+        "lib/net5.0-windows/Syncfusion.DocIO.Base.dll",
+        "lib/net5.0-windows/Syncfusion.DocIO.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.DocIO.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.DocIO.Base.xml",
+        "syncfusion.docio.wpf.19.2.0.44.nupkg.sha512",
+        "syncfusion.docio.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Gauge.WPF/19.2.0.44": {
+      "sha512": "zSEl8iZ4zbRnMp/znDARegtqyvWf2U98xbf3nNCHq7T72Q14EEOUsCnqm5YUFD0wIk6Lq54/FvBlxedPRTSHYA==",
+      "type": "package",
+      "path": "syncfusion.gauge.wpf/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Design/Syncfusion.Gauge.WPF.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Gauge.WPF.VisualStudio.Design.dll",
+        "lib/net35/Syncfusion.Gauge.WPF.dll",
+        "lib/net35/Syncfusion.Gauge.WPF.xml",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.Gauge.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Gauge.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.Gauge.WPF.dll",
+        "lib/net40/Syncfusion.Gauge.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.Gauge.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Gauge.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.Gauge.WPF.dll",
+        "lib/net45/Syncfusion.Gauge.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.Gauge.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Gauge.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.Gauge.WPF.dll",
+        "lib/net451/Syncfusion.Gauge.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.Gauge.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Gauge.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.Gauge.WPF.dll",
+        "lib/net46/Syncfusion.Gauge.WPF.xml",
+        "syncfusion.gauge.wpf.19.2.0.44.nupkg.sha512",
+        "syncfusion.gauge.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Grid.WPF/19.2.0.44": {
+      "sha512": "Y1iYWcqM31RBB17e3zdtzmQzuD2rVb0wD7CJiiPnC43kPzttX6R3eQjr+/ETqrPNIMA6mf0N50wkcAVSE9x8Zg==",
+      "type": "package",
+      "path": "syncfusion.grid.wpf/19.2.0.44",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Grid.WPF.dll",
+        "lib/net35/Syncfusion.Grid.WPF.xml",
+        "lib/net40/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Grid.WPF.dll",
+        "lib/net40/Syncfusion.Grid.WPF.xml",
+        "lib/net45/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Grid.WPF.dll",
+        "lib/net45/Syncfusion.Grid.WPF.xml",
+        "lib/net451/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Grid.WPF.dll",
+        "lib/net451/Syncfusion.Grid.WPF.xml",
+        "lib/net46/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Grid.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Grid.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Grid.WPF.dll",
+        "lib/net46/Syncfusion.Grid.WPF.xml",
+        "lib/net5.0-windows/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/net5.0-windows/Syncfusion.Grid.WPF.dll",
+        "lib/net5.0-windows/Syncfusion.Grid.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Grid.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Grid.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Grid.WPF.xml",
+        "syncfusion.grid.wpf.19.2.0.44.nupkg.sha512",
+        "syncfusion.grid.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.GridCommon.Wpf/19.2.0.44": {
+      "sha512": "SZetQpPjbS0hte1cOX63cq3mVUuvDHxX2/y160hayYYR/QNrRFgUpN07Kt3RWOmVZVysq0D2uUNDoKwlfxkgwg==",
+      "type": "package",
+      "path": "syncfusion.gridcommon.wpf/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.GridCommon.WPF.dll",
+        "lib/net35/Syncfusion.GridCommon.WPF.xml",
+        "lib/net40/Syncfusion.GridCommon.WPF.dll",
+        "lib/net40/Syncfusion.GridCommon.WPF.xml",
+        "lib/net45/Syncfusion.GridCommon.WPF.dll",
+        "lib/net45/Syncfusion.GridCommon.WPF.xml",
+        "lib/net451/Syncfusion.GridCommon.WPF.dll",
+        "lib/net451/Syncfusion.GridCommon.WPF.xml",
+        "lib/net46/Syncfusion.GridCommon.WPF.dll",
+        "lib/net46/Syncfusion.GridCommon.WPF.xml",
+        "lib/net5.0-windows/Syncfusion.GridCommon.WPF.dll",
+        "lib/net5.0-windows/Syncfusion.GridCommon.WPF.xml",
+        "lib/netcoreapp3.1/Syncfusion.GridCommon.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.GridCommon.WPF.xml",
+        "syncfusion.gridcommon.wpf.19.2.0.44.nupkg.sha512",
+        "syncfusion.gridcommon.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/19.2.0.44": {
+      "sha512": "XekMdME0qXUzX3uJSxVV6FgeC3ydgxpETMmtjck8enzpjKhlAU692uAVtyqAkecqa4YFJmXiKV/zEkKfjdLVWA==",
+      "type": "package",
+      "path": "syncfusion.licensing/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10.0/Syncfusion.Licensing.dll",
+        "lib/MonoAndroid90/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/net5.0/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.1/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.19.2.0.44.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Linq.Base/19.2.0.44": {
+      "sha512": "pwEzy67f8rXVemc8iHgNcujGLU2G4/ltbVnDu7h+wjipeqV1SnYppqBei0hlfrDqhb5v2CepAmNkk2JI3W3f/Q==",
+      "type": "package",
+      "path": "syncfusion.linq.base/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.Linq.Base.dll",
+        "lib/net35/Syncfusion.Linq.Base.xml",
+        "lib/net40/Syncfusion.Linq.Base.dll",
+        "lib/net40/Syncfusion.Linq.Base.xml",
+        "lib/net45/Syncfusion.Linq.Base.dll",
+        "lib/net45/Syncfusion.Linq.Base.xml",
+        "lib/net451/Syncfusion.Linq.Base.dll",
+        "lib/net451/Syncfusion.Linq.Base.xml",
+        "lib/net46/Syncfusion.Linq.Base.dll",
+        "lib/net46/Syncfusion.Linq.Base.xml",
+        "lib/net5.0-windows/Syncfusion.Linq.Base.dll",
+        "lib/net5.0-windows/Syncfusion.Linq.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Linq.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Linq.Base.xml",
+        "syncfusion.linq.base.19.2.0.44.nupkg.sha512",
+        "syncfusion.linq.base.nuspec"
+      ]
+    },
+    "Syncfusion.OfficeChart.Base/19.2.0.44": {
+      "sha512": "SNslhF+MCKfHRxYbqQT3hgOgmkVkb/s3xZz8RSD6MvqGu+nl8nXMG0buvk0KK646Z3ZNTOTnKgUNN2R5gT9EEw==",
+      "type": "package",
+      "path": "syncfusion.officechart.base/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Syncfusion.OfficeChart.Base.dll",
+        "lib/net20/Syncfusion.OfficeChart.Base.xml",
+        "lib/net35/Syncfusion.OfficeChart.Base.dll",
+        "lib/net35/Syncfusion.OfficeChart.Base.xml",
+        "lib/net40/Syncfusion.OfficeChart.Base.dll",
+        "lib/net40/Syncfusion.OfficeChart.Base.xml",
+        "lib/net45/Syncfusion.OfficeChart.Base.dll",
+        "lib/net45/Syncfusion.OfficeChart.Base.xml",
+        "lib/net451/Syncfusion.OfficeChart.Base.dll",
+        "lib/net451/Syncfusion.OfficeChart.Base.xml",
+        "lib/net46/Syncfusion.OfficeChart.Base.dll",
+        "lib/net46/Syncfusion.OfficeChart.Base.xml",
+        "lib/net5.0/Syncfusion.OfficeChart.Base.dll",
+        "lib/net5.0/Syncfusion.OfficeChart.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.OfficeChart.Base.xml",
+        "syncfusion.officechart.base.19.2.0.44.nupkg.sha512",
+        "syncfusion.officechart.base.nuspec"
+      ]
+    },
+    "Syncfusion.Pdf.Wpf/19.2.0.44": {
+      "sha512": "4AxOde9239F+8k/vjJzvKPmTe90IWoTT2h/neQDX92VhsrnXsPpa28/q+ITsT6Ux7BRdtcnTDiS2yATpxe40+A==",
+      "type": "package",
+      "path": "syncfusion.pdf.wpf/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.Pdf.Base.dll",
+        "lib/net35/Syncfusion.Pdf.Base.xml",
+        "lib/net40/Syncfusion.Pdf.Base.dll",
+        "lib/net40/Syncfusion.Pdf.Base.xml",
+        "lib/net45/Syncfusion.Pdf.Base.dll",
+        "lib/net45/Syncfusion.Pdf.Base.xml",
+        "lib/net451/Syncfusion.Pdf.Base.dll",
+        "lib/net451/Syncfusion.Pdf.Base.xml",
+        "lib/net46/Syncfusion.Pdf.Base.dll",
+        "lib/net46/Syncfusion.Pdf.Base.xml",
+        "lib/net5.0-windows/Syncfusion.Pdf.Base.dll",
+        "lib/net5.0-windows/Syncfusion.Pdf.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Pdf.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Pdf.Base.xml",
+        "syncfusion.pdf.wpf.19.2.0.44.nupkg.sha512",
+        "syncfusion.pdf.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.Presentation.Wpf/19.2.0.44": {
+      "sha512": "8ZnEmPE/lsxWRmW7slPQD62LjEuqsy55EE83gegh4psqKYZnARyQXC/8z+8GAY4N6MgnPW7PCv5Z8P1jfxAC/w==",
+      "type": "package",
+      "path": "syncfusion.presentation.wpf/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.Presentation.Base.dll",
+        "lib/net35/Syncfusion.Presentation.Base.xml",
+        "lib/net40/Syncfusion.Presentation.Base.dll",
+        "lib/net40/Syncfusion.Presentation.Base.xml",
+        "lib/net45/Syncfusion.Presentation.Base.dll",
+        "lib/net45/Syncfusion.Presentation.Base.xml",
+        "lib/net451/Syncfusion.Presentation.Base.dll",
+        "lib/net451/Syncfusion.Presentation.Base.xml",
+        "lib/net46/Syncfusion.Presentation.Base.dll",
+        "lib/net46/Syncfusion.Presentation.Base.xml",
+        "lib/net5.0-windows/Syncfusion.Presentation.Base.dll",
+        "lib/net5.0-windows/Syncfusion.Presentation.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.Presentation.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.Presentation.Base.xml",
+        "syncfusion.presentation.wpf.19.2.0.44.nupkg.sha512",
+        "syncfusion.presentation.wpf.nuspec"
+      ]
+    },
+    "Syncfusion.SfMaps.WPF/19.2.0.44": {
+      "sha512": "MOC9zgglUXU0gCHOYHAy+pNlDEu0oncuC+xU7P5BCn6QbvxhZVsgGR43mNUV92U6ST385NUKt9nZvfugfOfAxQ==",
+      "type": "package",
+      "path": "syncfusion.sfmaps.wpf/19.2.0.44",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.SfMaps.WPF.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.SfMaps.WPF.VisualStudio.Design.dll",
+        "lib/net40/Syncfusion.SfMaps.WPF.dll",
+        "lib/net40/Syncfusion.SfMaps.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.SfMaps.WPF.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.SfMaps.WPF.VisualStudio.Design.dll",
+        "lib/net45/Syncfusion.SfMaps.WPF.dll",
+        "lib/net45/Syncfusion.SfMaps.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.SfMaps.WPF.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.SfMaps.WPF.VisualStudio.Design.dll",
+        "lib/net451/Syncfusion.SfMaps.WPF.dll",
+        "lib/net451/Syncfusion.SfMaps.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.SfMaps.WPF.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.SfMaps.WPF.VisualStudio.Design.dll",
+        "lib/net46/Syncfusion.SfMaps.WPF.dll",
+        "lib/net46/Syncfusion.SfMaps.WPF.xml",
+        "lib/net5.0-windows/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/net5.0-windows/Syncfusion.SfMaps.WPF.dll",
+        "lib/net5.0-windows/Syncfusion.SfMaps.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.SfMaps.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfMaps.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.SfMaps.WPF.xml",
+        "syncfusion.sfmaps.wpf.19.2.0.44.nupkg.sha512",
+        "syncfusion.sfmaps.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Shared.WPF/19.2.0.44": {
+      "sha512": "0k4FWUo42ZmHJV47DVTBkXqQgYSNNNEmCEwi4t4tZmrKr/oqiI8UAgpoiHeqkkUrdeSlK5MDZPjWWsfuQG9dxw==",
+      "type": "package",
+      "path": "syncfusion.shared.wpf/19.2.0.44",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net35/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net35/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net35/Syncfusion.Shared.WPF.dll",
+        "lib/net35/Syncfusion.Shared.WPF.xml",
+        "lib/net40/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net40/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net40/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net40/Syncfusion.Shared.WPF.dll",
+        "lib/net40/Syncfusion.Shared.WPF.xml",
+        "lib/net45/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net45/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net45/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net45/Syncfusion.Shared.WPF.dll",
+        "lib/net45/Syncfusion.Shared.WPF.xml",
+        "lib/net451/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net451/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net451/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net451/Syncfusion.Shared.WPF.dll",
+        "lib/net451/Syncfusion.Shared.WPF.xml",
+        "lib/net46/Design/Syncfusion.Design.Wpf.dll",
+        "lib/net46/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.Expression.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.VisualStudio.Design.dll",
+        "lib/net46/Design/Syncfusion.Shared.Wpf.dll.Design.dll",
+        "lib/net46/Syncfusion.Shared.WPF.dll",
+        "lib/net46/Syncfusion.Shared.WPF.xml",
+        "lib/net5.0-windows/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/net5.0-windows/Syncfusion.Shared.WPF.dll",
+        "lib/net5.0-windows/Syncfusion.Shared.WPF.xml",
+        "lib/netcoreapp3.1/Design/Syncfusion.Shared.WPF.DesignTools.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.xml",
+        "syncfusion.shared.wpf.19.2.0.44.nupkg.sha512",
+        "syncfusion.shared.wpf.nuspec",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "Syncfusion.Shared.WPF.Classic/19.2.0.44": {
+      "sha512": "InlrY9Hdk3tJRvas2KnNq4ErGr2RjwJOVjde/t9oNN3aqeHJfWx/KJcESMb8EvqDM4ANrqpF6Evt0inEkE86vg==",
+      "type": "package",
+      "path": "syncfusion.shared.wpf.classic/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net35/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net40/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net40/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net45/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net45/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net451/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net451/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net46/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net46/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/net5.0-windows/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/net5.0-windows/Syncfusion.Shared.WPF.Classic.xml",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.Classic.dll",
+        "lib/netcoreapp3.1/Syncfusion.Shared.WPF.Classic.xml",
+        "syncfusion.shared.wpf.classic.19.2.0.44.nupkg.sha512",
+        "syncfusion.shared.wpf.classic.nuspec"
+      ]
+    },
+    "Syncfusion.XlsIO.Wpf/19.2.0.44": {
+      "sha512": "OldGiwx0CjVwhey58p8ai+bI9dhs5Yk7VkYHu42qlrR/ahbN8H4blS91Wf13LSD0hpJzAOlwo+l7qTpuVyrSdg==",
+      "type": "package",
+      "path": "syncfusion.xlsio.wpf/19.2.0.44",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Syncfusion.XlsIO.Base.dll",
+        "lib/net35/Syncfusion.XlsIO.Base.xml",
+        "lib/net40/Syncfusion.XlsIO.Base.dll",
+        "lib/net40/Syncfusion.XlsIO.Base.xml",
+        "lib/net45/Syncfusion.XlsIO.Base.dll",
+        "lib/net45/Syncfusion.XlsIO.Base.xml",
+        "lib/net451/Syncfusion.XlsIO.Base.dll",
+        "lib/net451/Syncfusion.XlsIO.Base.xml",
+        "lib/net46/Syncfusion.XlsIO.Base.dll",
+        "lib/net46/Syncfusion.XlsIO.Base.xml",
+        "lib/net5.0-windows/Syncfusion.XlsIO.Base.dll",
+        "lib/net5.0-windows/Syncfusion.XlsIO.Base.xml",
+        "lib/netcoreapp3.1/Syncfusion.XlsIO.Base.dll",
+        "lib/netcoreapp3.1/Syncfusion.XlsIO.Base.xml",
+        "syncfusion.xlsio.wpf.19.2.0.44.nupkg.sha512",
+        "syncfusion.xlsio.wpf.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "BoldReports.WPF >= 3.3.28",
+      "Microsoft.ReportingServices.ReportViewerControl.WebForms >= 150.1484.0",
+      "Microsoft.ReportingServices.ReportViewerControl.Winforms >= 150.1484.0",
+      "Microsoft.SqlServer.Types >= 14.0.1016.290"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jakub\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\jakub\\Desktop\\lipy\\Source\\JakubToma_utwory.csproj",
+      "projectName": "JakubToma_utwory",
+      "projectPath": "C:\\Users\\jakub\\Desktop\\lipy\\Source\\JakubToma_utwory.csproj",
+      "packagesPath": "C:\\Users\\jakub\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\jakub\\Desktop\\lipy\\Source\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "BoldReports.WPF": {
+            "target": "Package",
+            "version": "[3.3.28, )"
+          },
+          "Microsoft.ReportingServices.ReportViewerControl.WebForms": {
+            "target": "Package",
+            "version": "[150.1484.0, )"
+          },
+          "Microsoft.ReportingServices.ReportViewerControl.Winforms": {
+            "target": "Package",
+            "version": "[150.1484.0, )"
+          },
+          "Microsoft.SqlServer.Types": {
+            "target": "Package",
+            "version": "[14.0.1016.290, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

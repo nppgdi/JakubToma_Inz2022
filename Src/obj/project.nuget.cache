@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "TY6vaESl5jCm/5La5rpx8P9SB3EV9Sj1qNDXG2GLXWR7ScAwKSQOO8GRZ4zYAGPqFaM0RhsDls3E9aisMLPpnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jakub\\Desktop\\lipy\\Source\\JakubToma_utwory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jakub\\.nuget\\packages\\bold.licensing\\3.3.28\\bold.licensing.3.3.28.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\boldreports.wpf\\3.3.28\\boldreports.wpf.3.3.28.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.reportingservices.reportviewercontrol.webforms\\150.1484.0\\microsoft.reportingservices.reportviewercontrol.webforms.150.1484.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.reportingservices.reportviewercontrol.winforms\\150.1484.0\\microsoft.reportingservices.reportviewercontrol.winforms.150.1484.0.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\microsoft.sqlserver.types\\14.0.1016.290\\microsoft.sqlserver.types.14.0.1016.290.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\newtonsoft.json\\10.0.2\\newtonsoft.json.10.0.2.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.chart.wpf.classic\\19.2.0.44\\syncfusion.chart.wpf.classic.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.compression.base\\19.2.0.44\\syncfusion.compression.base.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.docio.wpf\\19.2.0.44\\syncfusion.docio.wpf.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.gauge.wpf\\19.2.0.44\\syncfusion.gauge.wpf.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.grid.wpf\\19.2.0.44\\syncfusion.grid.wpf.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.gridcommon.wpf\\19.2.0.44\\syncfusion.gridcommon.wpf.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.licensing\\19.2.0.44\\syncfusion.licensing.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.linq.base\\19.2.0.44\\syncfusion.linq.base.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.officechart.base\\19.2.0.44\\syncfusion.officechart.base.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.pdf.wpf\\19.2.0.44\\syncfusion.pdf.wpf.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.presentation.wpf\\19.2.0.44\\syncfusion.presentation.wpf.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.sfmaps.wpf\\19.2.0.44\\syncfusion.sfmaps.wpf.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.shared.wpf\\19.2.0.44\\syncfusion.shared.wpf.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.shared.wpf.classic\\19.2.0.44\\syncfusion.shared.wpf.classic.19.2.0.44.nupkg.sha512",
+    "C:\\Users\\jakub\\.nuget\\packages\\syncfusion.xlsio.wpf\\19.2.0.44\\syncfusion.xlsio.wpf.19.2.0.44.nupkg.sha512"
+  ],
+  "logs": []
+}
